@@ -44,7 +44,7 @@
             <div class="col-6">
             <div class="card-body shadow">
             <form method="POST">
-                <h3 class="mb-3">Tasks<i class="fa-solid fa-list-check float-end"></i></h3>
+                <h3 class="mb-3">Edit Information<i class="fa-solid fa-list-check float-end"></i></h3>
                 <input name="taskId" type="hidden" class="form-control-lg mb-2 w-100" value="<?php echo $data['id'] ?>" required><!--Show Data Step-->
                 <label class="form-label" for="newName">Name</label><!--SHOW NAME-->
                 <input name="newName" type="text" class="form-control-lg w-100" value="<?php echo $data['name'] ?>" required><!--Show Data Step-->
